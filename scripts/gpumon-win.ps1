@@ -11,7 +11,7 @@ Expand-Archive .\telegraf-1.38.0_windows_amd64.zip -DestinationPath 'C:\Program 
 cd 'C:\Program Files\InfluxData\telegraf\'
 
 # Copy the Telegraf executable and configuration to the root of the Telegraf folder
-cp .\telegraf-1.32.0\telegraf.* .
+cp .\telegraf-1.38.0\telegraf.* .
 
 # List the contents of the directory to verify files
 dir
