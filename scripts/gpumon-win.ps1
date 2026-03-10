@@ -2,10 +2,10 @@
 cd ~/Downloads
 
 # Download the Telegraf ZIP file
-wget https://dl.influxdata.com/telegraf/releases/telegraf-1.32.0_windows_amd64.zip -UseBasicParsing -OutFile telegraf-1.32.0_windows_amd64.zip
+wget https://dl.influxdata.com/telegraf/releases/telegraf-1.38.0_windows_amd64.zip -UseBasicParsing -OutFile telegraf-1.38.0_windows_amd64.zip
 
 # Extract the ZIP file to the desired destination
-Expand-Archive .\telegraf-1.32.0_windows_amd64.zip -DestinationPath 'C:\Program Files\InfluxData\telegraf'
+Expand-Archive .\telegraf-1.38.0_windows_amd64.zip -DestinationPath 'C:\Program Files\InfluxData\telegraf'
 
 # Change directory to the extracted location
 cd 'C:\Program Files\InfluxData\telegraf\'
